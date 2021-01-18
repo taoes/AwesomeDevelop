@@ -6,21 +6,11 @@
 ## 1、熔断器的概念
 所谓的熔断，指的是在服务不可用的时候，一定时间内不在向该服务发送请求，接收到该服务的请求的时候，直接返回失败。
 
-
-
-
-
-
-
-
-
-
 ## 2、Hystrix的熔断器原理
 Netflix 提供了熔断的组件 Hystrix 被大量应用在SpringCloud 的项目中。
 
 
 > Hystrix 不在更新，建议使用 Resilience4j [[https://github.com/resilience4j/resilience4j](https://github.com/resilience4j/resilience4j)]   Resilience4j 是受Netflix的Hysrix项目启发，专门为**Java 8 和函数式编程**设计的轻量级**容错框架**。Resilicenes4j 仅使用了一个第三方开源库Vavr，Vavr不依赖其他库。相比较而言，Netflix Hysrix对Archaius存在编译依赖，Archaius有许多外部依赖，比如Guava和Apache，Commons Configuration。Resilience4j 按模块发布，可以有选择的使用其中某些功能而无需引入全部的Resilience4j 组件。
-
 
 
 - Hystrix 会在大量请求无法响应的情况下，及时切断该服务的调用，将状态由CLOSED->OPEN，产生服务降级
