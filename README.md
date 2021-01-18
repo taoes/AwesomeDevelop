@@ -1,50 +1,67 @@
-# 学习笔记
-
 个人学习笔记，主要是自己近些年的学习内容记录，同时会记录一些最新的观点和问题，文章同步发布在 [个人博客](https://www.zhoutao123.com)
 以及 [语雀文档](https://www.yuque.com/zhoutao123) 如果您对我的文章感兴趣，欢迎关注，如果文章对您有帮助的话，欢迎 Star 支持一下，您的支持是我不断更新的动力~
 
 > 目前项目内容正在逐步迁移到 Gitee中，更多文章建议先访问 [个人博客](https://www.zhoutao123.com) 以及 [语雀文档](https://www.yuque.com/zhoutao123) ！！！
 
++ [《 深入理解 Java 虚拟机》](https://www.zhoutao123.com/page/book/1)
++ [《 后端架构设计》](https://www.zhoutao123.com/page/book/2)
++ [《 Java 基础知识进阶》](https://www.zhoutao123.com/page/book/3)
++ [《 Nginx 学习笔记》](https://www.zhoutao123.com/page/book/4)
++ [《 前端开发杂记》](https://www.zhoutao123.com/page/book/5)
++ [《 设计模式学习笔记》](https://www.zhoutao123.com/page/book/6)
++ [《 DevOps 最佳实践指南》](https://www.zhoutao123.com/page/book/7)
++ [《 Netty 入门与实战》](https://www.zhoutao123.com/page/book/8)
++ [《 高性能MYSQL》](https://www.zhoutao123.com/page/book/9)
++ [《 JavaEE 常用框架》](https://www.zhoutao123.com/page/book/10)
++ [《 Java 并发编程学习笔记》](https://www.zhoutao123.com/page/book/11)
++ [《 分布式系统》](https://www.zhoutao123.com/page/book/12)
++ [《 数据结构与算法》](https://www.zhoutao123.com/page/book/13)
 
 项目目前涵盖了: Java、JVM、Java并发、DevOps、设计模式、架构设计、各种中间件入门以及原理等等，因个人 能力有限，如果文档有错误，欢迎指出，非常感谢
 
-# JavaEE 相关框架
+# JavaWeb 相关框架
 
 ## Spring 源码分析
+
 + [Spring深入学习笔记概述](java/spring/001.Spring深入学习笔记概述.md)
-+ [SpringBean的初始化方法](java/spring/008.SpringBean 的初始化方法.md)
-+ [Spring Bean的循环依赖以及其解决方式](java/spring/005.Spring Bean的循环依赖以及其解决方式.md)
-+ [Spring Bean的属性注入](java/spring/003.Spring Bean的属性注入.md)
-+ [Spring Bean的创建方式](java/spring/002.Spring Bean的创建方式.md)
-+ [Spring 常用注解示例](java/spring/004.Spring 常用注解示例.md)
-+ [BeanPostProcessor 的底层原理以及应用](java/spring/006.BeanPostProcessor 的底层原理以及应用.md)
-+ [SpringAOP 从 EnableAspectJAutoProxy 说起](java/spring/007.SpringAOP 从 EnableAspectJAutoProxy 说起.md)
++ [SpringBean的初始化方法](java/spring/008.SpringBean_的初始化方法.md)
++ [Spring Bean的循环依赖以及其解决方式](java/spring/005.Spring_Bean的循环依赖以及其解决方式.md)
++ [Spring Bean的属性注入](java/spring/003.Spring_Bean的属性注入.md)
++ [Spring Bean的创建方式](java/spring/002.Spring_Bean的创建方式.md)
++ [Spring 常用注解示例](java/spring/004.Spring_常用注解示例.md)
++ [BeanPostProcessor 的底层原理以及应用](java/spring/006.BeanPostProcessor_的底层原理以及应用.md)
++ [SpringAOP 从 EnableAspectJAutoProxy 说起](java/spring/007.SpringAOP从_EnableAspectJAutoProxy说起.md)
 
 ## SpringBoot 注解源码分析
-+ SprintApplication 源码分析
-+ SpringBoot 相关模块详解
-+ SpringBoot的日志配置
-+ ApplicationListener
-+ SpringApplicationEvent 使用以及实现原理
-+ ApplicationContextInitializer
-+ SpringFactoriesLoader
+
++ [JAR文件格式以及JDWP调试](java/spring_boot/JAR文件格式以及JDWP调试.md)
++ [JarLauncher 源码分析](JarLauncher_源码分析.md)
++ [SprintApplication 源码分析](java/spring_boot/SpringBoot_注解源码分析.md)
++ [SpringBoot 相关模块详解](java/spring_boot/SpringBoot_相关模块详解.md)
++ [SpringBoot的日志配置](java/spring_boot/SpringBoot的日志配置.md)
++ [ApplicationListener](java/spring_boot/ApplicationListener.md)
++ [SpringApplicationEvent 使用以及实现原理](java/spring_boot/SpringApplicationEvent_使用以及实现原理.md)
++ [ApplicationContextInitializer](java/spring_boot/ApplicationContextInitializer.md)
++ [SpringFactoriesLoader](java/spring_boot/SpringFactoriesLoader.md)
 
 ## Spring Cloud 组件与原理
-+ 概述
-+ 服务注册与发现
-+ 微服务熔断机制与Hystrix原理
-+ Zuul 网关路由
-+ Ribbon 客户端负载均衡
+
++ [概述](java/spring_cloud/概述.md)
++ [服务注册与发现](java/spring_cloud/服务注册与发现.md)
++ [微服务熔断机制与Hystrix原理](java/spring_cloud/微服务熔断机制与Hystrix原理.md)
++ [Zuul 网关路由](java/spring_cloud/Zuul_网关路由.md)
++ [Ribbon 客户端负载均衡](java/spring_cloud/Ribbon_客户端负载均衡.md)
 
 ## MyBatis 入门及原理
+
 + [Mybatis 基本概念](java/mybatis/001.MyBatis概念.md)
-+ [MyBatis 项目搭建以及配置](java/mybatis/002.MyBatis 项目搭建以及配置项.md)
-+ [MyBatis 执行源码解析.md](java/mybatis/003.MyBatis 执行源码解析.md)
++ [MyBatis 项目搭建以及配置](java/mybatis/002.MyBatis_项目搭建以及配置项.md)
++ [MyBatis 执行源码解析.md](java/mybatis/003.MyBatis_执行源码解析.md)
 + [MyBatis二级缓存实现原理.md](java/mybatis/004.MyBatis二级缓存实现原理.md)
 
 # Java虚拟机
 
-+说明
++ 说明
 + 第1章 走进 Java 虚拟机
 + 第2章 JVM的内存区域与内存溢出异常
     + 运行时数据区域
