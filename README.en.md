@@ -1,40 +1,48 @@
-个人学习笔记，主要是自己近些年的学习内容记录，同时会记录一些最新的观点和问题，文章同步发布在 [个人博客](https://www.zhoutao123.com)
-以及 [语雀文档](https://www.yuque.com/zhoutao123) 如果您对我的文章感兴趣，欢迎关注，如果文章对您有帮助的话，欢迎 Star 支持一下，您的支持是我不断更新的动力~
-
----
-+ [JVM](https://www.zhoutao123.com/page/book/1)
-+ [《 后端架构设计》](https://www.zhoutao123.com/page/book/2)
-+ [《 Java 基础知识进阶》](https://www.zhoutao123.com/page/book/3)
-+ [《 Nginx 学习笔记》](https://www.zhoutao123.com/page/book/4)
-+ [《 前端开发杂记》](https://www.zhoutao123.com/page/book/5)
-+ [《 设计模式学习笔记》](https://www.zhoutao123.com/page/book/6)
-+ [《 DevOps 最佳实践指南》](https://www.zhoutao123.com/page/book/7)
-+ [《 Netty 入门与实战》](https://www.zhoutao123.com/page/book/8)
-+ [《 高性能MYSQL》](https://www.zhoutao123.com/page/book/9)
-+ [《 JavaEE 常用框架》](https://www.zhoutao123.com/page/book/10)
-+ [《 Java 并发编程学习笔记》](https://www.zhoutao123.com/page/book/11)
-+ [《 分布式系统》](https://www.zhoutao123.com/page/book/12)
-+ [《 数据结构与算法》](https://www.zhoutao123.com/page/book/13)
-
-项目目前涵盖了: Java、JVM、Java并发、DevOps、设计模式、架构设计、各种中间件入门以及原理等等，因个人 能力有限，如果文档有错误，欢迎指出，非常感谢
+[中文](./README.md) | **English**
 
 ---
 
-# JavaWeb 相关框架
+This is Personal learning notes and it mainly their own recent learning content records and interview knowledge points , otherwise some latest views and questions will be recorded. 
 
-+ [Spring 源码分析](./java/spring/README.md)
-+ [SpringBoot 注解源码分析](./java/spring_boot/README.md)
-+ [Spring Cloud 组件与原理](./java/spring_cloud/README.md)
-+ [MyBatis 入门及原理](./java/mybatis/README.md)
+The document are published in [✨ My Personal Blog Taoes's WebSite](https://www.zhoutao123.com) and [YuqueDoc](https://www.yuque.com/zhoutao123). If you are interested in my document project, please star and support, if it helps you ,you can submit PR 🔀  Your support will support me that I container write more document about java or others!
 
++ [Java Vitual Machine](https://www.zhoutao123.com/page/book/1)
++ [Design Of Backend Architecture](https://www.zhoutao123.com/page/book/2)
++ [Code Advance Of Java](https://www.zhoutao123.com/page/book/3)
++ [Nginx Notes](https://www.zhoutao123.com/page/book/4)
++ [Frontend Noted](https://www.zhoutao123.com/page/book/5)
++ [Design Pattern Notes](https://www.zhoutao123.com/page/book/6)
++ [Devops Best Practice Guide](https://www.zhoutao123.com/page/book/7)
++ [netty getting started and fighting](https://www.zhoutao123.com/page/book/8)  
++ [High Performance Of MySQL](https://www.zhoutao123.com/page/book/9)
++ [JavaEE Common Framework](https://www.zhoutao123.com/page/book/10)
++ [Java Concurrent](https://www.zhoutao123.com/page/book/11)
++ [Distributed Systems](https://www.zhoutao123.com/page/book/12)
++ [Data Structure And Algorithm](https://www.zhoutao123.com/page/book/13)
 
-# Java
-+ [Java虚拟机](./java/jvm/README.md)
-+ [Java 并发编程](./java/concurrent/README.md)
+The project currently covers Java, JVM, Java concurrency, Devops, design patterns, architecture design, introduction to various middleware and principles, etc. due to limited personal capabilities, if there is any document error, please note that thank you very much
 
-# 其他
-+ [分布式系统](./java/distributed/README.md)
+---
+##Links
++  🎉 [MyBlog](https://www.zhoutao123.com)
++  🎉 [Gitee](https://gitee.com/taoes_admin/JavaNoted)
++  🎉 [Github]( https://github.com/taoes/JavaNoted)
 
+##  📖  Catalog
 
+###  🔥  JavaWeb  Framework
++ [Spring source analysis](./Java/spring/README.md)
++ [Springboot annotation source analysis](./Java/spring_boot/README.md)
++ [Spring cloud components and principles](./Java/spring_cloud/README.md)
++ [Introduction and principle of mybatis](./Java/mybatis/README.md)
 
+###  🔥  JavaSE
++ [Advanced Java programming](./Java/Java SE)
++ [Java virtual machine](./Java/JVM/README.md)
++ [Java Concurrent Programming](./Java/concurrent/README.md)
+  
+###  ✨ Other
++ [Distributed system](./Java/distributed/README.md)
 
+## 🧑🏻‍ 💼  Interview
++ [Summary of knowledge points for Java interview](./interview)
