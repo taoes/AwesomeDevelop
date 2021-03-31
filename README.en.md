@@ -31,18 +31,18 @@ The project currently covers Java, JVM, Java concurrency, Devops, design pattern
 ##  📖  Catalog
 
 ###  🔥  JavaWeb  Framework
-+ [Spring source analysis](./Java/spring/README.md)
-+ [Springboot annotation source analysis](./Java/spring_boot/README.md)
-+ [Spring cloud components and principles](./Java/spring_cloud/README.md)
-+ [Introduction and principle of mybatis](./Java/mybatis/README.md)
++ [Spring source analysis](./java/spring/README.md)
++ [Springboot annotation source analysis](./java/spring_boot/README.md)
++ [Spring cloud components and principles](./java/spring_cloud/README.md)
++ [Introduction and principle of mybatis](./java/mybatis/README.md)
 
 ###  🔥  JavaSE
-+ [Advanced Java programming](./Java/Java SE)
-+ [Java virtual machine](./Java/JVM/README.md)
-+ [Java Concurrent Programming](./Java/concurrent/README.md)
++ [Advanced Java programming](./java/java-se)
++ [Java virtual machine](./java/jvm/README.md)
++ [Java Concurrent Programming](./java/concurrent/README.md)
   
 ###  ✨ Other
-+ [Distributed system](./Java/distributed/README.md)
++ [Distributed system](./java/distributed/README.md)
 
 ## 🧑🏻‍ 💼  Interview
 + [Summary of knowledge points for Java interview](./interview)

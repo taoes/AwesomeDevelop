@@ -15,9 +15,9 @@
 ---
 
 ## 链接
-+ ✏️ [燕归来兮-个人博客(最快更新)](https://www.zhoutao123.com)
-+ 🤤 [Gitee(访问更快)](https://gitee.com/taoes_admin/JavaNoted) 
-+ ⚠️ [Github](https://github.com/taoes/JavaNoted)
++ 🎉 [燕归来兮-个人博客(最快更新)](https://www.zhoutao123.com)
++ 🎉 [Gitee(访问更快)](https://gitee.com/taoes_admin/JavaNoted) 
++ 🎉 [Github](https://github.com/taoes/JavaNoted)
 
 
 
