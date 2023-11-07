@@ -1,0 +1,17 @@
+{
+  "name": "awesome-develop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/taoes/awesome-develop",
+  "author": "Yan <taozhou.tao@alibaba-inc.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/client": "^2.0.0-beta.67",
+    "vue": "^3.3.8",
+    "vuepress": "^2.0.0-beta.67"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
