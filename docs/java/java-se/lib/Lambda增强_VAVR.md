@@ -73,8 +73,8 @@ Match(value).of(
 <a name="option"></a>
 ### 
 Vavr 中的 `Option` 与 Java 8 中的 `Optional` 是相似的。不过 Vavr 的 Option 是一个接口，有两个实现类 `Option.Some` 和 `Option.None`，分别对应有值和无值两种情况。使用 `Option.some` 方法可以创建包含给定值的 `Some` 对象，而 `Option.none` 可以获取到 `None` 对象的实例。`Option` 也支持常用的 `map`、`flatMap` 和 `filter` 等操作。
-<a name="d41d8cd9"></a>
-##### 
+
+
 ```java
 Option<String> str = Option.of("Hello");
 str.map(String::length);

@@ -80,7 +80,7 @@ public boolean isPresent() {
 ```
 <br />
 <a name="EiZXJ"></a>
-### Optional.map(Function<? **super **T, ? **extends **U)
+### Optional.map(Function? super T, ? extends U)
 _
 > _如果值存在，就应用提供的函数，如果函数的值也不为null，就返回这个结果的引用，否则返回Optional.empty()_
 > _  _

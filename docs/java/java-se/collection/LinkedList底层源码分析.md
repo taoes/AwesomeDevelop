@@ -7,17 +7,10 @@ LinkedList 的类图关系如下：
 > ![LikedList继承关系](../img/linkedlist_stract.png)
 
 > 由此可见LinkedList 除了是一个集合之外，也是一个双端队列，因为其实现了Deque 接口，其中Queue的方法如下：
->
 
 > ![LikedList继承关系](../img/linkedlist_queue.png)
 
-
-
-
-
-
-
-每个节点的类型为**Node<E>, **Node 类型是LinkedList的一个私有的静态内部类实现，定义如下:
+每个节点的类型为`Node<E>`,Node 类型是LinkedList的一个私有的静态内部类实现，定义如下:
 
 
 ```java
