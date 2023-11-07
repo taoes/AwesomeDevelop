@@ -41,6 +41,7 @@
 + [Spring Cloud 组件与原理](./java/spring_cloud/README.md)
 + [MyBatis 入门及原理](./java/mybatis/README.md)
 
+
 ### 🦜 JavaSE
 + [Java 进阶编程](./java/java-se)
 + [Java 虚拟机](./java/jvm/README.md)
@@ -49,8 +50,9 @@
 ### 📱 其他
 + [分布式系统](./java/distributed/README.md)
 + [云原生](./java/cloud_native/README.md)
++ [技术文章](./推荐文章/README.md)
++ [架构设计](./架构设计/README.md)
   
-
 
 ### 🧑🏻‍💼 面试
 + [Java面试知识点汇总](./interview)
