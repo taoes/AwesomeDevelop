@@ -7,14 +7,14 @@ export default defineUserConfig({
     description: '这是我的第一个 VuePress 站点',
     theme: defaultTheme({
         editLinkText: '编辑此页内容',
-        docsRepo: 'https://github.com/taoes/awesom_develop',
+        docsRepo: 'https://github.com/taoes/awesome-develop',
         docsBranch: 'master',
         docsDir: 'docs',
-        editLinkPattern: ':repo/-/edit/:branch/:path',
+        editLinkPattern: ':repo/edit/:branch/:path',
         // 默认主题配置
         navbar: [
             {
-                text: '首页',
+                text: '🏠 首页',
                 link: '/',
             },
             {
@@ -22,11 +22,11 @@ export default defineUserConfig({
                 link: 'https://www.zhoutao123.com',
             },
             {
-                text: 'Github',
+                text: '🌏 Github',
                 link: 'https://github.com/taoes',
             },
             {
-                text: 'GitEE',
+                text: '📙 GitEE',
                 link: 'https://gitee.com/taoes_admin',
             },
         ],

@@ -1,1 +1,0 @@
-const a=JSON.parse('{"key":"v-1ed8cf41","path":"/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/","title":"领域模型驱动","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1699349345000,"contributors":[{"name":"Yan","email":"taozhou.tao@alibaba-inc.com","commits":1}]},"filePathRelative":"架构设计/README.md"}');export{a as data};

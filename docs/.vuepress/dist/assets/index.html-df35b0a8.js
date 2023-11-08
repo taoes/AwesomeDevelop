@@ -1,1 +1,0 @@
-const a=JSON.parse('{"key":"v-5340abb0","path":"/java/mybatis/","title":"MyBatis 笔记","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1699349345000,"contributors":[{"name":"Yan","email":"taozhou.tao@alibaba-inc.com","commits":1}]},"filePathRelative":"java/mybatis/README.md"}');export{a as data};
