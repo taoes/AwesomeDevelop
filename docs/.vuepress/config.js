@@ -3,8 +3,8 @@ import { defineUserConfig, defaultTheme } from 'vuepress'
 export default defineUserConfig({
     lang: 'zh-CN',
     base: '/doc/',
-    title: '燕归来兮的个人文档',
-    description: '这是我的第一个 VuePress 站点',
+    title: '燕归来兮的知识库',
+    description: '个人学习笔记，主要是自己近些年的学习内容记录以及面试的知识点，同时会记录一些最新的观点和问题，文章同步发布在 个人博客 以及 语雀文档 如果您对我的文章感兴趣，欢迎关注，如果文章对您有帮助的话，欢迎 Star支持⭐️ 或者提交 PR 🔀 ，您的支持是我不断更新的动力~',
     theme: defaultTheme({
         editLinkText: '编辑此页内容',
         docsRepo: 'https://github.com/taoes/awesome-develop',
@@ -20,6 +20,10 @@ export default defineUserConfig({
             {
                 text: '📖 我的网站',
                 link: 'https://www.zhoutao123.com',
+            },
+            {
+                text: '⚗ 我的博客',
+                link: 'https://www.zhoutao123.com/blog.html',
             },
             {
                 text: '🌏 Github',
