@@ -60,7 +60,7 @@
   
 
 ## 🧑🏻‍💼 面试试题
-+ [Java面试知识点汇总](./interview)
++ [Java面试知识点汇总](./interview/README.md)
 + [技术文章](./推荐文章/README.md)
 + [架构设计](./架构设计/README.md)
 
