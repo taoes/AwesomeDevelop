@@ -103,7 +103,9 @@ class TestCase {
 ```
 
 ::: warning 尝试使用VAVR
+
 同样的Guava 也提出过 类似的Optional的操作方式，后来Java8 引入此模式，但是，对于深度使用此模式的开发者来说，Optional的功能仍然太浅，**有兴趣的同学可以了解下 **[VAVR](https://docs.vavr.io/#_option)** 所提供的Lambda 表达式的拓展库，其内提供了更为强大的 Option**
+
 :::
 
 某些场景下合理利用Optional类来实现代码，有时候甚至可以减少代码复杂度，比如下面的代码中获取一个学生的同桌的名称的大写，如果学生名称暂未录入则返回"NOT_CONFIG", 可以看到下面的方法中显然下面的到吗更清晰，更简洁，减少了一个 if 结构
