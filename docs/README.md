@@ -1,3 +1,8 @@
+---
+title: 燕归来兮的学习笔记
+date: 2018-07-07
+description: 个人学习笔记，主要是自己近些年的学习内容记录以及面试的知识点，同时会记录一些最新的观点和问题，如果您对我的文章感兴趣，欢迎关注，如果文章对您有帮助的话，欢迎 Star支持或者提交PR，您的支持是我不断更新的动力~ 项目目前涵盖了:Java、JVM、Java并发、DevOps、设计模式、架构设计、各种中间件入门以及原理等等，因个人 能力有限，如果文档有错误，欢迎指出，非常感谢
+---
 
 **中文** | [English](./README.en.md)
 
@@ -18,8 +23,9 @@
 :tada: 项目目前涵盖了: Java、JVM、Java并发、DevOps、设计模式、架构设计、各种中间件入门以及原理等等，因个人 能力有限，如果文档有错误，欢迎指出，非常感谢
 
 ---
-## 📚 读书笔记
-+ [Code Atchitecture](./bookes/clean_architecture/README.md)
+### 📚 读书笔记
++ [架构整洁之道(Clean Architecture)](./bookes/clean_architecture/README.md)
++ [代码整洁之道(Clean Code)](./bookes/clean_code/README.md)
 + 深入理解 Java 虚拟机
 + 后端架构设计
 + Java 基础知识进阶
@@ -34,7 +40,7 @@
 + 分布式系统
 + 数据结构与算法
 
-## 📖 编程语言
+
 ### 🌈 前端框架
 + [React 开发入门](./react/README.md)
 + [Vue 组件与原理](./vue/README.md)
@@ -48,20 +54,23 @@
     + [SpringBoot 注解源码分析](./java/spring_boot/README.md)
     + [Spring Cloud 组件与原理](./java/spring_cloud/README.md)
 + Python
-    + [基础预发](./python/README.md)
+    + [基础知识](./python/README.md)
++ Go
+    + [基础知识](./go/README.md)
 
 ## 🔨 编程框架
 + [MyBatis 入门及原理](./java/mybatis/README.md)
 
 
 ## 📱 知识广度
-+ [分布式系统](./java/distributed/README.md)
++ [分布式](./java/distributed/README.md)
 + [云原生](./cloud_native/README.md)
++ [中间件](./middlewave/README.md)
 
   
 
 ## 🧑🏻‍💼 面试试题
-+ [Java面试知识点汇总](./interview/README.md)
++ [面试汇总](./interview/README.md)
 + [技术文章](./article/README.md)
 + [架构设计](./architecture/README.md)
 
