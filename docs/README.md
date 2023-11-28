@@ -20,24 +20,24 @@
 ---
 ## 📚 读书笔记
 + [Code Atchitecture](./bookes/clean_architecture/README.md)
-+ [《 深入理解 Java 虚拟机》](https://www.zhoutao123.com/page/book/1)  
-+ [《 后端架构设计》](https://www.zhoutao123.com/page/book/2) 
-+ [《 Java 基础知识进阶》](https://www.zhoutao123.com/page/book/3)  
-+ [《 Nginx 学习笔记》](https://www.zhoutao123.com/page/book/4)  
-+ [《 前端开发杂记》](https://www.zhoutao123.com/page/book/5) 
-+ [《 设计模式学习笔记》](https://www.zhoutao123.com/page/book/6)  
-+ [《 DevOps 最佳实践指南》](https://www.zhoutao123.com/page/book/7) 
-+ [《 Netty 入门与实战》](https://www.zhoutao123.com/page/book/8)  
-+ [《 高性能MYSQL》](https://www.zhoutao123.com/page/book/9) 
-+ [《 JavaEE 常用框架》](https://www.zhoutao123.com/page/book/10)  
-+ [《 Java 并发编程学习笔记》](https://www.zhoutao123.com/page/book/11)  
-+ [《 分布式系统》](https://www.zhoutao123.com/page/book/12)  
-+ [《 数据结构与算法》](https://www.zhoutao123.com/page/book/13)
++ 深入理解 Java 虚拟机
++ 后端架构设计
++ Java 基础知识进阶
++ Nginx 学习笔记
++ 前端开发杂记
++ 设计模式学习笔记
++ DevOps 最佳实践指南
++ Netty 入门与实战
++ 高性能MYSQL
++ JavaEE 常用框架
++ Java 并发编程学习笔记
++ 分布式系统
++ 数据结构与算法
 
 ## 📖 编程语言
 ### 🌈 前端框架
-+ [React 开发入门](./java/spring_cloud/README.md)
-+ [Vue 组件与原理](./java/spring_cloud/README.md)
++ [React 开发入门](./react/README.md)
++ [Vue 组件与原理](./vue/README.md)
 
 ### 🌲 后端服务
 + Java
@@ -48,7 +48,7 @@
     + [SpringBoot 注解源码分析](./java/spring_boot/README.md)
     + [Spring Cloud 组件与原理](./java/spring_cloud/README.md)
 + Python
-    + [Flask Web应用](./python/flask/README.md)
+    + [基础预发](./python/README.md)
 
 ## 🔨 编程框架
 + [MyBatis 入门及原理](./java/mybatis/README.md)
@@ -56,14 +56,14 @@
 
 ## 📱 知识广度
 + [分布式系统](./java/distributed/README.md)
-+ [云原生](./java/cloud_native/README.md)
++ [云原生](./cloud_native/README.md)
 
   
 
 ## 🧑🏻‍💼 面试试题
 + [Java面试知识点汇总](./interview/README.md)
-+ [技术文章](./推荐文章/README.md)
-+ [架构设计](./架构设计/README.md)
++ [技术文章](./article/README.md)
++ [架构设计](./architecture/README.md)
 
 
 ## 🔗 推荐链接
