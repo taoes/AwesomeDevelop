@@ -3,11 +3,7 @@ title: 架构整洁之道(Clean Architecture)
 date: 2022-01-24
 ---
 
-## 封面
-![](./img/cover.jpg)
-
-
-## [架构的价值维度](./values.md)
+## [设计架构的价值维度](./values.md)
 + 行为价值
 + 架构价值
 + 艾森豪威尔矩阵: 重要与紧急
@@ -28,6 +24,9 @@ date: 2022-01-24
 + 组件的构建
 + 组件的聚合
 + 组件的解耦
+<<<<<<< HEAD
 
 ## 软件架构
 + [什么是软件架构?](./what_is_architecture.md)
+=======
+>>>>>>> refs/remotes/origin/master
