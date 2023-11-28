@@ -24,9 +24,6 @@ date: 2022-01-24
 + 组件的构建
 + 组件的聚合
 + 组件的解耦
-<<<<<<< HEAD
 
 ## 软件架构
 + [什么是软件架构?](./what_is_architecture.md)
-=======
->>>>>>> refs/remotes/origin/master
