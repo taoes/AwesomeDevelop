@@ -12,21 +12,25 @@ date: 2022-04-30
 属性访问器、修改器、断言根据其值依JavaBean标准命名为get, set, is。
 
 ```java
-    string name = employee.getName();
-    customer.setName("Tom");
-    if (paycheck.isPosted())...
+  string name = employee.getName();
+  customer.setName("Tom");
+  if (paycheck.isPosted())...
 ```
+
+::: danger 笔者注
+在一些特定的编程语言中,比如Java语言，set/get 开头的方法是具有特殊的含义的，因此笔者建议这里使用 `find` 和 `update` 替换
+:::
 
 重载构造函数，使用描述参数的静态工厂方法更优。
 
 ```java
-    Complex fulcrumPoint = Complex.FromRealNumber(23.0);
+Complex fulcrumPoint = Complex.FromRealNumber(23.0);
 ```
 
 通常好于
 
 ```java
-    Complex fulcrumPoint = new Complex(23.0);
+Complex fulcrumPoint = new Complex(23.0);
 ```
 
 ### 每个概念确定一个词
@@ -44,13 +48,12 @@ MAC地址、端口地址、Web地址相区别，使用MAC, PostalAddress, URI这
 每个函数不应过长，数行为佳，例如：
 
 ```java
-    public static String renderPageWithSetupAndTeardowns(
-            PageData pageData, boolean isSuite) throws Exception {
-        if (isTestPage(pageData)){
-            includeSetipAndTeardownPages(pageData, isSuite);
-        }
-        return pageData.getHtml();
+public static String renderPageWithSetupAndTeardowns(PageData pageData, boolean isSuite) throws Exception {
+    if (isTestPage(pageData)){
+        includeSetipAndTeardownPages(pageData, isSuite);
     }
+    return pageData.getHtml();
+}
 ```
 
 if, else, while语句中的代码块尽量只有一行，调用一个拥有较具说明性的函数名称的函数，增加文档上的价值，易于阅读与理解。
@@ -75,8 +78,8 @@ if, else, while语句中的代码块尽量只有一行，调用一个拥有较�
 越少越好。如果函数看起来需要很多(3个或3个以上)参数，可能某些参数需要封装成类了。如：
 
 ```java
-    Circle makeCircle(double x, double y, double radius);
-    Circle makeCircle(Point center, double radius);
+Circle makeCircle(double x, double y, double radius);
+Circle makeCircle(Point center, double radius);
 ```
 
 函数的输出最好通过返回值体现，而不是在参数中输出。习惯上，信息通过函数输入参数，通过返回值从函数中输出。 \
@@ -89,22 +92,21 @@ if, else, while语句中的代码块尽量只有一行，调用一个拥有较�
 反例：
 
 ```java
-    public class UserValidator {
-        private Cryptographer cryptographer;
-
-        public boolean checkPassword(String userName, String password) {
-            User user = userGateway.findByName(useeName);
-            if (user != user.NULL) {
-                String codePhrase = user.getPhraseEncodedByPassword();
-                String phrase = cryptographer.decrypt(codedPhrase, password);
-                if ("Valid password".equals(phrase)) {
-                    Session.initialize();
-                    return true;
-                }
+public class UserValidator {
+    private Cryptographer cryptographer;
+    public boolean checkPassword(String userName, String password) {
+        User user = userGateway.findByName(useeName);
+        if (user != user.NULL) {
+            String codePhrase = user.getPhraseEncodedByPassword();
+            String phrase = cryptographer.decrypt(codedPhrase, password);
+            if ("Valid password".equals(phrase)) {
+                Session.initialize();
+                return true;
             }
-            return false;
         }
+        return false;
     }
+}
 ```
 
 副作用在于调用了`Session.initialize()`。函数名称并未体现初始化会话的功能，可能导致调用者顾名思义而误操作。这违反了函数“只做一件事”的规则。
@@ -114,9 +116,9 @@ if, else, while语句中的代码块尽量只有一行，调用一个拥有较�
 避免设计使用`if (set("username", "unclebob"))...`这种将判断与指令杂糅的函数，应将它们分开：
 
 ```java
-    if (attributeExists("username")) {
-        setAttribute("username", "unclebob");
-    }
+if (attributeExists("username")) {
+    setAttribute("username", "unclebob");
+}
 ```
 
 这样的代码可读性更高。
@@ -160,13 +162,17 @@ if, else, while语句中的代码块尽量只有一行，调用一个拥有较�
 
 ```java
 // Check to see if the employee is eligible for full benefits
-if ((employee.flags & HOURLY_FLAG) && employee.age > 65) { }
+if ((employee.flags & HOURLY_FLAG) && employee.age > 65) {
+
+}
 ```
 
 远不如
 
 ```java
-if(employee.isEligibleForFullBenefits()) { }
+if(employee.isEligibleForFullBenefits()) { 
+
+}
 ```
 
 ### 好注释
