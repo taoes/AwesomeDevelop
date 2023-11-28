@@ -1,0 +1,16 @@
+--2023-11-28 05:45:50--  https://github.com/leewaiho/Clean-Architecture-zh/raw/master/docs/cover.jpg
+Resolving github.com (github.com)... 140.82.113.4
+Connecting to github.com (github.com)|140.82.113.4|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://raw.githubusercontent.com/leewaiho/Clean-Architecture-zh/master/docs/cover.jpg [following]
+--2023-11-28 05:45:50--  https://raw.githubusercontent.com/leewaiho/Clean-Architecture-zh/master/docs/cover.jpg
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.110.133, 185.199.111.133, 185.199.108.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.110.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 8451 (8.3K) [image/jpeg]
+Saving to: ‘cover.jpg.1’
+
+     0K ........                                              100% 41.8M=0s
+
+2023-11-28 05:45:50 (41.8 MB/s) - ‘cover.jpg.1’ saved [8451/8451]
+
