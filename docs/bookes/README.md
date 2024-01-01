@@ -3,8 +3,8 @@ title: 读书笔记
 date: 2021-01-31
 ---
 
-##  [架构整洁之道(Clean Architecture)](./clean_architecture/README.md)
-##  [代码整洁之道(Clean Code)](./clean_code/README.md)
+##  [架构整洁之道](./clean_architecture/README.md)
+##  [代码整洁之道](./clean_code/README.md)
 ##  深入理解 Java 虚拟机
 ##  后端架构设计
 ##  Java 基础知识进阶  

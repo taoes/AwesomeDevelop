@@ -7,7 +7,7 @@ date: 2021-11-28
 
 ## 结构化编程
 
-结构化编程是第一个普遍被采用的编程范式（但是却不是第一个被提出的），由 Edsger Wybe Dijkstra 于 1968 年最先提出。与此同时，Dijkstra 还论证了使用 goto 这样的无限制跳转语句将会损害程序的整体结构。接下来的章节我们还会说到，二是这位 Dijkstra 最先主张用我们现在熟知的 if/then/else 语句和 do/while/until 语句来代替跳转语句的。
+结构化编程是第一个普遍被采用的编程范式（但是却不是第一个被提出的），由 `Edsger Wybe Dijkstra` 于 1968 年最先提出。与此同时，Dijkstra 还论证了使用 goto 这样的无限制跳转语句将会损害程序的整体结构。接下来的章节我们还会说到，二是这位 Dijkstra 最先主张用我们现在熟知的 if/then/else 语句和 do/while/until 语句来代替跳转语句的。
 
 ::: tip
 结构化编程对程序控制权的直接转移进行了限制和规范。 (Structured programming imposes discipline on direct transfer of control.)

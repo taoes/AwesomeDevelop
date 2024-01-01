@@ -24,9 +24,9 @@ description: 个人学习笔记，主要是自己近些年的学习内容记录�
 
 ---
 ### 📚 读书笔记
-+ [架构整洁之道(Clean Architecture)](./bookes/clean_architecture/README.md)
-+ [代码整洁之道(Clean Code)](./bookes/clean_code/README.md)
-+ 深入理解 Java 虚拟机
++ [架构整洁之道](./bookes/clean_architecture/README.md)
++ [代码整洁之道](./bookes/clean_code/README.md)
++ [深入理解 Java 虚拟机](./bookes/jvm/README.md)
 + 后端架构设计
 + Java 基础知识进阶
 + Nginx 学习笔记
@@ -66,6 +66,7 @@ description: 个人学习笔记，主要是自己近些年的学习内容记录�
 + [分布式](./java/distributed/README.md)
 + [云原生](./cloud_native/README.md)
 + [中间件](./middlewave/README.md)
++ [Redis源码分析](./redis/README.md)
 
   
 

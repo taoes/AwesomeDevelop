@@ -1,5 +1,5 @@
 ---
-title: 代码整洁之道(Clean Code)
+title: 代码整洁之道
 date: 2022-04-30
 ---
 
